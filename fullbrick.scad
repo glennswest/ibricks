@@ -26,8 +26,8 @@ module brick(bl,bh)
 {   
     difference(){
         basebrick(bh,bl);
-        translate([bl*.30,-10,5]) ckey(160);
-        translate([bl*.70,-10,5]) ckey(160);
+        translate([bl*.25,-10,5]) ckey(160);
+        translate([bl*.75,-10,5]) ckey(160);
         }
     
 }
