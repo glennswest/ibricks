@@ -28,8 +28,10 @@ module brick(bl,bh)
         basebrick(bh,bl);
         translate([bl*.25,-10,5]) ckey(160);
         translate([bl*.75,-10,5]) ckey(160);
+        rotate([90,0,0]) translate([bl-10,15,-bh-10]) cylinder(h=20,r=2.1);
+        rotate([90,0,0]) translate([30,15,-bh-10]) cylinder(h=20,r=2.1);
         }
     
 }
 
-brick(125,60);
+brick(203,60);
